@@ -145,13 +145,13 @@ class initialize(object):
         if alpha_values==None:
             # Isotope effects, trans into fractionation factors
             alpha15noxA = 0./1000.+1 # NOx -> N2Oa - need 40 per mil SP for denit to get observed profiles
-            alpha15N2OCONSA = 10.89/1000.+1  # N2Oa -> N2
+            alpha15N2OCONSA = 11.8/1000.+1  # N2Oa -> N2
             alpha15noxB = 0./1000.+1 # NOx -> N2Ob
             alpha15N2OCONSB = 0./1000.+1 #1.64/1000.+1  # N2Ob -> N2
             alpha18NO3TON2O_b = 24./1000.+1 # NO3- -> NO2-, branching isotope effect
             alpha18NO2TON2O_b = 12./1000.+1 # NO2- -> N2O, branching isotope effect
             alpha18NO2TON2O = 0./1000.+1 # NO2- -> N2O, kinetic isotope effect
-            alpha18N2OCONS = 16.22/1000.+1 # N2O -> N2, kinetic isotope effect
+            alpha18N2OCONS = 20.2/1000.+1 # N2O -> N2, kinetic isotope effect
             alpha18h2o = 10/1000.+1  # equilibration with seawater
             alphaexch = 1.0153
         else:
